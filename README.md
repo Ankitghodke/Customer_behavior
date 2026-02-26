@@ -1,93 +1,54 @@
-# 📊 Customer Behavior Dashboard Project
+# Customer Behavior Analytics: End-to-End Cloud Data Pipeline
 
- 📌 Overview
-This project analyzes customer shopping behavior data using Python for data cleaning and feature engineering, SQL (Neon PostgreSQL) for deep analysis, and Power BI for dashboard visualization.
-
-The goal of the project is to generate meaningful business insights from raw customer purchase data.
+ 📌 Project Overview
+This project demonstrates a professional data engineering and analytics lifecycle. I built a live data stack connecting Python-based ETL, Cloud Data Warehousing (PostgreSQL), and Business Intelligence (Power BI) to extract actionable insights from customer shopping data.
 
 
- 🔄 Project Workflow
-
- 1️⃣ Data Import (Google Colab)
-- Imported the CSV file into Google Colab.
-- Performed initial inspection of the dataset.
-
- 2️⃣ Python Work (Data Cleaning & Feature Engineering)
-Using Pandas in Google Colab:
-- Handled missing values
-- Created calculated columns
-- Structured the dataset for analysis
-
-Python was mainly used for:
-- Data preprocessing
-- Feature engineering
-- Preparing clean data for SQL analysis
+ 🛠️ Tech Stack
+* Language: Python (Pandas, SQLAlchemy)
+* Database: Neon.com (Serverless PostgreSQL)
+* Environment: Google Colab
+* Visualization: Power BI Desktop
+* SQL Techniques: CTEs, Window Functions, Case Statements, Data Segmentation
 
 
- 3️⃣ SQL Work (Neon PostgreSQL - Serverless)
+ ⚙️ Data Pipeline Workflow
 
-Connected Google Colab to Neon PostgreSQL database.
+ 1. Data Engineering & ETL (Python)
+Using 'customer_behavior.ipynb', I performed:
+* Data Cleaning: Handled missing values and standardized schema for SQL injection.
+* Feature Engineering: Prepared the dataset for relational storage.
+* Cloud Integration: Established a secure connection between Google Colab and the Neon PostgreSQL server to automate data migration.
 
-SQL was used for:
-- Creating tables
-- Importing cleaned data into the database
-- Writing analytical queries
-- Using:
-  - GROUP BY
-  - SUM()
-  - COUNT()
-  - AVG()
-  - ORDER BY
-- Performing revenue analysis by:
-  - Category
-  - Age group
-  - Subscription status
-  - Gender
+ 2. Cloud Data Warehousing (SQL)
+With the data hosted on the cloud, I executed 'customer_behavior.sql' to solve 10 critical business questions, including:
+* Revenue Analysis: Comparing spend across genders and subscription statuses.
+* Customer Segmentation: Categorizing users into 'New', 'Returning', and 'Loyal' tiers using SQL logic.
+* Product Performance: Identifying top-rated items and high-performing categories via Window Functions.
 
-SQL was used for deep business analysis and metric calculation.
+ 3. Business Intelligence (Power BI)
+I connected the Neon Cloud DB to Power BI to create an interactive dashboard:
+* Executive KPIs: Total Revenue, Average Ratings, and Subscription Rates.
+* Operational Insights: Shipping efficiency analysis (Standard vs. Express) and regional sales distribution.
 
- 4️⃣ Power BI (Dashboard Visualization)
 
-After SQL analysis:
-- Loaded processed data into Power BI
-- Created an interactive dashboard
-- Added filters for:
-  - Subscription Status
-  - Gender
-  - Category
-  - Shipping Type
+ 📊 Key Insights Captured
+* Loyalty Impact: Segmented 3,900+ customers into 3 tiers, identifying purchase frequency patterns.
+* Shipping Behavior: Validated correlations between shipping tiers and purchase amounts.
+* Subscription Value: Analyzed the revenue contribution of subscribed vs. non-subscribed users.
 
-Dashboard includes:
-- Total Customers
-- Average Revenue Rating
-- Average Purchase Amount
-- Revenue by Category
-- Sales by Category
-- Revenue by Age Group
-- Sales by Age Group
-- Subscription Status Distribution
 
- 📂 Dataset Information
+ 📂 File Structure
+* customer_behavior.ipynb: Python script for ETL and Cloud DB connection.
+* customer_behavior.sql: The full library of 10 business logic queries.
+* customer_behavior_dashboard.pbix: The Power BI visualization file.
+* customer_shopping_behavior.csv: The raw dataset.
 
-- File Name: customer_shopping_behavior.csv
-- Contains customer purchase data including:
-  - Age Group
-  - Gender
-  - Product Category
-  - Subscription Status
-  - Shipping Type
-  - Purchase Amount
-  - Quantity
 
- 🎯 Key Insights
+ 🚀 How to Use
+1. Run the Python notebook to view the ETL and database connection process.
+2. Import the SQL file into a PostgreSQL environment to test business logic queries.
+3. Open the `.pbix` file to explore the interactive data visualizations.
 
-- Clothing category generates highest revenue.
-- Young Adults contribute most to sales.
-- Majority customers are non-subscribers.
-- Subscription status influences purchase behavior.
-🚀 Conclusion
-
-This project demonstrates an end-to-end data analytics workflow:
-CSV → Python Cleaning → SQL Analysis → Power BI Dashboard
-
-It highlights practical skills in data preprocessing, SQL querying, and business dashboard development.
+ Dashboard Preview:
+customer_behavior_dash.png)
