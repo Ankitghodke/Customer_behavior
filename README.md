@@ -51,4 +51,4 @@ I connected the Neon Cloud DB to Power BI to create an interactive dashboard:
 3. Open the `.pbix` file to explore the interactive data visualizations.
 
  Dashboard Preview:
-customer_behavior_dash.png)
+(customer_behavior_dash.png)
