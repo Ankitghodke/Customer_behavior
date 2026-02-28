@@ -119,6 +119,3 @@ Connected Neon Cloud DB to Power BI for interactive dashboard:
 
 ![Dashboard](customer_behavior_dash.png)
 
----
-
-*Every metric in this README is verified from actual dataset analysis.*
