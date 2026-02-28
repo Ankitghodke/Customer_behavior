@@ -95,7 +95,7 @@ Connected Neon Cloud DB to Power BI for interactive dashboard:
 
 ---
 
-##📂 File Structure
+## 📂 File Structure
 
 ```
 📁 Customer-Behavior-Analytics
