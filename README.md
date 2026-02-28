@@ -3,7 +3,7 @@
 
 
 
-## 📌 Project Overview
+ 📌 Project Overview
 
 A professional end-to-end data analytics pipeline analyzing **3,900 customer records across 25 products, 4 categories, and 50 U.S. states** — generating **$233K in total revenue insights** through Python-based ETL, Cloud Data Warehousing, and interactive Business Intelligence dashboarding.
 
@@ -16,7 +16,7 @@ A professional end-to-end data analytics pipeline analyzing **3,900 customer rec
 
 ---
 
-## 🏗️ Project Architecture
+ 🏗️ Project Architecture
 
 ```
 Raw Dataset (3,900 records | 18 features)
@@ -32,7 +32,7 @@ Power BI (Interactive Dashboard)
 
 ---
 
-## 📊 Dataset Overview
+ 📊 Dataset Overview
 
 | Metric | Value |
 |--------|-------|
@@ -50,14 +50,14 @@ Power BI (Interactive Dashboard)
 
 ---
 
-## ⚙️ Data Pipeline Workflow
+ ⚙️ Data Pipeline Workflow
 
-### 1. 🔹 Data Engineering & ETL (Python)
+ 1. 🔹 Data Engineering & ETL (Python)
 - **Data Cleaning:** Handled missing values, standardized schema for SQL injection
 - **Feature Engineering:** Prepared dataset for relational cloud storage
 - **Cloud Integration:** Established secure connection between **Google Colab and Neon Serverless PostgreSQL** — solving the cloud-to-cloud connectivity challenge without a local server
 
-### 2. 🔹 Cloud Data Warehousing (SQL)
+ 2. 🔹 Cloud Data Warehousing (SQL)
 Solved **10 critical business questions** on the cloud-hosted database:
 
 | Query | Technique | Key Finding |
@@ -73,14 +73,14 @@ Solved **10 critical business questions** on the cloud-hosted database:
 | Repeat Buyer Subscription | WHERE + GROUP BY | 89.1% of customers are repeat buyers |
 | Revenue by Age Group | GROUP BY + SUM | Age-based revenue distribution identified |
 
-### 3. 🔹 Business Intelligence (Power BI)
+ 3. 🔹 Business Intelligence (Power BI)
 Connected Neon Cloud DB to Power BI for interactive dashboard:
 - **Executive KPIs:** Total Revenue, Avg Rating, Subscription Rate, Avg Purchase
 - **Operational Insights:** Shipping efficiency, regional sales, category performance
 
 ---
 
-## 📈 Key Business Insights
+ 📈 Key Business Insights
 
 | Finding | Metric | Impact |
 |---------|--------|--------|
@@ -94,7 +94,7 @@ Connected Neon Cloud DB to Power BI for interactive dashboard:
 
 ---
 
-## 📂 File Structure
+📂 File Structure
 
 ```
 📁 Customer-Behavior-Analytics
@@ -107,7 +107,7 @@ Connected Neon Cloud DB to Power BI for interactive dashboard:
 
 ---
 
-## 🚀 How to Use
+ 🚀 How to Use
 
 1. Run **customer_behavior.ipynb** to view ETL process and Neon PostgreSQL connection
 2. Import **customer_behavior.sql** into any PostgreSQL environment to test queries
