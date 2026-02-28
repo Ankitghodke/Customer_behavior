@@ -1,5 +1,5 @@
-# 🛍️ Customer Behavior Analytics: End-to-End Cloud Data Pipeline
-### Python | Neon PostgreSQL | SQL | Power BI | Google Colab
+🛍️ Customer Behavior Analytics — End-to-End Cloud Data Pipeline
+Python | Neon PostgreSQL | SQL | Power BI
 
 
 
@@ -117,5 +117,5 @@ Connected Neon Cloud DB to Power BI for interactive dashboard:
 
  📸 Dashboard Preview
 
-(customer_behavior_dash.PNG)
+![Dashboard](customer_behavior_dash.PNG)
 
