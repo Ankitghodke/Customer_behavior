@@ -1,5 +1,5 @@
-🛍️ Customer Behavior Analytics — End-to-End Cloud Data Pipeline
-Python | Neon PostgreSQL | SQL | Power BI
+## 🛍️ Customer Behavior Analytics — End-to-End Cloud Data Pipeline
+## Python | Neon PostgreSQL | SQL | Power BI
 
 
 
