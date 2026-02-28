@@ -3,7 +3,8 @@
 
 
 
- 📌 Project Overview
+
+## 📌 Project Overview
 
 A professional end-to-end data analytics pipeline analyzing **3,900 customer records across 25 products, 4 categories, and 50 U.S. states** — generating **$233K in total revenue insights** through Python-based ETL, Cloud Data Warehousing, and interactive Business Intelligence dashboarding.
 
@@ -16,7 +17,7 @@ A professional end-to-end data analytics pipeline analyzing **3,900 customer rec
 
 ---
 
- 🏗️ Project Architecture
+## 🏗️ Project Architecture
 
 ```
 Raw Dataset (3,900 records | 18 features)
@@ -32,7 +33,7 @@ Power BI (Interactive Dashboard)
 
 ---
 
- 📊 Dataset Overview
+## 📊 Dataset Overview
 
 | Metric | Value |
 |--------|-------|
@@ -50,7 +51,7 @@ Power BI (Interactive Dashboard)
 
 ---
 
- ⚙️ Data Pipeline Workflow
+## ⚙️ Data Pipeline Workflow
 
  1. 🔹 Data Engineering & ETL (Python)
 - **Data Cleaning:** Handled missing values, standardized schema for SQL injection
@@ -80,7 +81,7 @@ Connected Neon Cloud DB to Power BI for interactive dashboard:
 
 ---
 
- 📈 Key Business Insights
+## 📈 Key Business Insights
 
 | Finding | Metric | Impact |
 |---------|--------|--------|
@@ -94,7 +95,7 @@ Connected Neon Cloud DB to Power BI for interactive dashboard:
 
 ---
 
-📂 File Structure
+##📂 File Structure
 
 ```
 📁 Customer-Behavior-Analytics
@@ -107,7 +108,7 @@ Connected Neon Cloud DB to Power BI for interactive dashboard:
 
 ---
 
- 🚀 How to Use
+## 🚀 How to Use
 
 1. Run **customer_behavior.ipynb** to view ETL process and Neon PostgreSQL connection
 2. Import **customer_behavior.sql** into any PostgreSQL environment to test queries
